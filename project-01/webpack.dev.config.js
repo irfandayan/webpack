@@ -14,11 +14,6 @@ module.exports = {
   },
   mode: 'development',
   devServer: {
-    // contentBase: path.resolve(__dirname, './dist'),
-    // open: 'index.html',
-    // port: 9000,
-    // // writeToDisk: true,
-
     static: {
       directory: path.join(__dirname, './dist'),
     },
