@@ -2,11 +2,15 @@
 import './hello-world-button.scss';
 
 class HelloWorldButton {
+  // Use latest JS with Babel
+  buttonCssClass = 'hello-world-button';
+
   render() {
     const button = document.createElement('button');
     button.innerHTML = 'Hello World';
 
-    button.classList.add('hello-world-button');
+    // button.classList.add('hello-world-button');
+    button.classList.add(this.buttonCssClass);
 
     button.onclick = function () {
       const p = document.createElement('p');
