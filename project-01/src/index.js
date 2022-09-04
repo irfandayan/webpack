@@ -9,3 +9,5 @@ const helloWorldButton = new HelloWorldButton();
 helloWorldButton.render();
 
 addImage();
+
+// let ten = 10;
